@@ -1,15 +1,13 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcomaañlsadkañskasñdsdadasde!");
+        // Crear instancias de la clase Auto
+        Auto auto1 = new Auto("Hyundai", "Accent", "Blanco");
+        Auto auto2 = new Auto("Fiat", "Uno Way", "Blanco");
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("sdasd= " + i);
-        }
+        // Imprimir los atributos de cada auto
+        System.out.println("Auto 1: " + auto1.marca + " " + auto1.modelo + " " + auto1.color);
+        System.out.println("Auto 2: " + auto2.marca + " " + auto2.modelo + " " + auto2.color);
     }
 }
