@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         // Crear instancias de la clase Auto
         Auto auto1 = new Auto("Hyundai", "Accent", "Blanco");
-        Auto auto2 = new Auto("Fiat", "Uno Way", "Blanco");
+        Auto auto2 = new Auto("Fiaat", "Uno Way", "Blanco");
 
         // Imprimir los atributos de cada auto
         System.out.println("Auto 1: " + auto1.marca + " " + auto1.modelo + " " + auto1.color);
